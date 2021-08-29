@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Advertising Web
 
-Things you may want to cover:
+### Hosted on Heroku :- https://advertiseapp.herokuapp.com/
 
-* Ruby version
+### TechStack
+- Rails 6.1.4.1
+- PostgreSQL 1.2
+- ruby 3.0.2
 
-* System dependencies
+### Project Details and Uses
 
-* Configuration
+- This is a Advertisement Web Application where user can publish their Advertisement.
+- Interface for user
+  - User can create Advertisement.
+  - User can Edit Advertisement.
+  - User can Delete Advertisement.
 
-* Database creation
+- Interface for customer
+  - View Advertisement on HomePage
+  - Register and Login to the Advertisement page
+  - Comment on Advertisement
 
-* Database initialization
+- Authentication functionality
+  - User can Register, Login and Logout to the page
+  - Only Registered user who has logged in able to create Advertisement
+  - Advertisement deleted and edited by only owner user, other user only view and comment
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
